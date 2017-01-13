@@ -1,7 +1,10 @@
+#![allow(non_snake_case)]
+#![allow(non_camel_case_types)]
+#![allow(non_upper_case_globals)]
+
 include!("weechat-plugin.rs");
 
 #[no_mangle]
-#[allow(non_upper_case_globals)]
 pub static weechat_plugin_api_version: [u8; 12] = *WEECHAT_PLUGIN_API_VERSION;
 
 #[macro_export]
