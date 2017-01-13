@@ -1,0 +1,12 @@
+[package]
+name = "rust-weechat"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+
+[dependencies]
+weechat-sys = { path = "weechat-sys" }
+
+[lib]
+name = "rust_weechat"
+path = "src/lib.rs"
+crate_type = ["dylib"]

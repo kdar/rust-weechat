@@ -1,0 +1,8 @@
+[package]
+name = "weechat-sys"
+version = "0.1.0"
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+build = "build.rs"
+
+[build-dependencies]
+libbindgen = "0.1"
